@@ -85,25 +85,9 @@ source venv/bin/activate
 
 Create or place your CSV file in `data/tickets.csv`
 
-**Example:**
-
-```csv
-id,customer_id,subject,description,category,resolution,timestamp
-T001,C001,Login issue,Cannot login to account,account,Reset password,2024-01-15 10:30:00
-```
-
-**Sample provided:** `data/sample/sample_tickets.csv` (15 tickets to test)
-
 ### Product Documentation
 
 Place docs in `data/docs/` directory
-
-**Supported formats:**
-
-- `.pdf` - PDF documents
-- `.docx` - Word documents
-- `.txt` - Text files
-- `.md` - Markdown files
 
 **Example structure:**
 
@@ -114,8 +98,6 @@ data/docs/
 ├── api_docs.txt
 └── troubleshooting.docx
 ```
-
-**Sample provided:** `data/sample/sample_docs.md`
 
 ---
 
@@ -286,58 +268,6 @@ Or reduce `LLM_MAX_TOKENS` in `.env`
 1. Verify `data/tickets.csv` exists and has content
 2. Verify `data/docs/` has documentation files
 3. Check console for error messages
-
----
-
-## Next Steps
-
-After basic setup works:
-
-### 📚 Phase 2: Build Knowledge Base
-
-- Ingest your actual CSV tickets
-- Parse your actual documentation
-- Build embeddings
-- Create vector store
-
-### 🤖 Phase 3: Implement RAG
-
-- Query vector store
-- Retrieve context
-- Build prompts
-
-### 👥 Phase 4: Specialist Agents
-
-- Technical support agent
-- Billing agent
-- Resolution drafter
-
-### 🎨 Phase 5: UI Enhancements
-
-- Dashboard
-- Analytics
-- Ticket history
-
----
-
-## Performance Tips ⚡
-
-**First Run:**
-
-- Downloading embeddings model: ~1 minute
-- Downloading LLM model: ~15-30 minutes (first time only)
-- Generating embeddings: Depends on doc size
-
-**Subsequent Runs:**
-
-- Response time: 5-15 seconds
-- Embeddings cached after first run
-
-**Optimize:**
-
-- Use smaller model if slow: `ollama pull neural-chat`
-- Reduce `CHUNK_SIZE` in config (faster, less accurate)
-- Enable GPU in Ollama for faster inference
 
 ---
 
