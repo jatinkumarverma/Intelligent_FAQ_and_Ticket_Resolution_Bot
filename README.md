@@ -123,7 +123,6 @@ Place your data files in the `data/` directory:
 data/tickets.csv
 ```
 
-Required columns: `id, customer_id, subject, description, category, resolution, timestamp`
 
 **Product Documentation:**
 ```
@@ -134,7 +133,7 @@ data/docs/
 └── troubleshooting.docx
 ```
 
-Supported formats: `.pdf`, `.docx`, `.txt`, `.md`
+Supported formats: `.pdf`, `.docx`, `.txt`, `.json`, `.md`
 
 ### Step 6: Run the Application
 
@@ -214,7 +213,7 @@ LOG_LEVEL=INFO
 
 ### 1. **Data Ingestion**
    - Loads historical tickets from CSV
-   - Parses product documentation (PDF, DOCX, TXT, MD)
+   - Parses product documentation (PDF, DOCX, TXT, JSON, MD)
    - Chunks documents (512 tokens, 50% overlap)
    - Generates embeddings using Sentence Transformers
 
@@ -242,75 +241,6 @@ LOG_LEVEL=INFO
    - Final response shown in Streamlit UI
    - Confidence score and sources displayed
    - Response stored for future reference
-
-## API Reference 📚
-
-### Key Modules
-
-#### `src.data_processor`
-```python
-from src.data_processor import DataProcessor
-
-processor = DataProcessor()
-tickets = processor.load_tickets("data/tickets.csv")
-docs = processor.load_documentation("data/docs")
-chunks = processor.chunk_documents(docs)
-```
-
-#### `src.embeddings`
-```python
-from src.embeddings import EmbeddingGenerator
-
-generator = EmbeddingGenerator()
-embedding = generator.embed_text("your text here")
-embeddings = generator.embed_batch(list_of_texts)
-```
-
-#### `src.vector_store`
-```python
-from src.vector_store import VectorStore
-
-store = VectorStore()
-store.add_documents(chunks_with_embeddings)
-results = store.search_by_text("search query", k=5)
-```
-
-#### `src.rag_retriever`
-```python
-from src.rag_retriever import RAGRetriever
-
-retriever = RAGRetriever()
-context = retriever.retrieve("customer question", k=5)
-```
-
-#### `src.orchestrator`
-```python
-from src.orchestrator import OrchestratorAgent
-
-agent = OrchestratorAgent()
-response = agent.process_ticket(
-    subject="Issue with payment",
-    description="Cannot process payment..."
-)
-```
-
-## Development 💻
-
-### Running Tests
-
-```bash
-pytest tests/
-```
-
-### Code Quality
-
-```bash
-# Format code
-black src/ ui/
-
-# Lint code
-flake8 src/ ui/
-```
 
 ### Adding Custom Agents
 
@@ -362,7 +292,7 @@ Or increase system swap space.
 ### Empty Vector Store
 **Solution**: Ensure your data files are in the correct format:
 - CSV must have required columns
-- Documents must be in supported formats (.pdf, .docx, .txt, .md)
+- Documents must be in supported formats (.pdf, .docx, .txt, .json, .md)
 
 ## Performance Tips ⚡
 
