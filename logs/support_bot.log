@@ -1,0 +1,360 @@
+2026-06-18 12:46:39,618 - support_bot - INFO - Support Bot v0.1.0 initialized
+2026-06-18 13:20:46,107 - support_bot - INFO - Support Bot v0.1.0 initialized
+2026-06-18 13:20:46,107 - INFO - Support Bot v0.1.0 initialized
+2026-06-18 13:20:59,607 - support_bot - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-18 13:20:59,607 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-18 13:20:59,607 - INFO - Use pytorch device_name: cpu
+2026-06-18 13:20:59,607 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-18 13:21:07,877 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-06-18 13:21:38,863 - support_bot - INFO - Model loaded. Dimension: 384
+2026-06-18 13:21:38,863 - INFO - Model loaded. Dimension: 384
+2026-06-18 13:21:38,863 - support_bot - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-18 13:21:38,863 - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-18 20:00:19,732 - support_bot - INFO - Support Bot v0.1.0 initialized
+2026-06-18 20:00:19,732 - INFO - Support Bot v0.1.0 initialized
+2026-06-18 20:00:56,673 - support_bot - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-18 20:00:56,673 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-18 20:00:56,689 - INFO - Use pytorch device_name: cpu
+2026-06-18 20:00:56,692 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-18 20:01:02,746 - support_bot - INFO - Model loaded. Dimension: 384
+2026-06-18 20:01:02,746 - INFO - Model loaded. Dimension: 384
+2026-06-18 20:01:02,753 - support_bot - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-18 20:01:02,753 - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-18 20:01:02,876 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-18 20:01:03,716 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-18 20:01:03,716 - support_bot - INFO - OrchestratorAgent initialized
+2026-06-18 20:01:03,716 - INFO - OrchestratorAgent initialized
+2026-06-18 20:01:03,716 - support_bot - INFO - technical agent initialized
+2026-06-18 20:01:03,716 - INFO - technical agent initialized
+2026-06-18 20:01:03,722 - support_bot - INFO - billing agent initialized
+2026-06-18 20:01:03,722 - INFO - billing agent initialized
+2026-06-18 20:01:03,724 - support_bot - INFO - drafter agent initialized
+2026-06-18 20:01:03,724 - INFO - drafter agent initialized
+2026-06-18 20:01:03,726 - support_bot - INFO - SpecialistAgentManager initialized with all agents
+2026-06-18 20:01:03,726 - INFO - SpecialistAgentManager initialized with all agents
+2026-06-18 20:02:41,450 - support_bot - INFO - Analyzing ticket TICKET-1781793161
+2026-06-18 20:02:41,450 - INFO - Analyzing ticket TICKET-1781793161
+2026-06-18 20:02:41,454 - support_bot - INFO - Classified ticket: bug (medium)
+2026-06-18 20:02:41,454 - INFO - Classified ticket: bug (medium)
+2026-06-18 20:02:41,454 - support_bot - INFO - Multi-step retrieval for: having issue with product
+2026-06-18 20:02:41,454 - INFO - Multi-step retrieval for: having issue with product
+2026-06-18 20:02:41,454 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:02:41,454 - ERROR - Collection not initialized
+2026-06-18 20:02:41,464 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:02:41,464 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:02:41,464 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:02:41,464 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:02:41,519 - support_bot - INFO - Processing complex ticket: TICKET-1781793161
+2026-06-18 20:02:41,519 - INFO - Processing complex ticket: TICKET-1781793161
+2026-06-18 20:02:41,523 - support_bot - INFO - Technical Agent processing: TICKET-1781793161
+2026-06-18 20:02:41,523 - INFO - Technical Agent processing: TICKET-1781793161
+2026-06-18 20:02:41,527 - support_bot - INFO - Billing Agent processing: TICKET-1781793161
+2026-06-18 20:02:41,527 - INFO - Billing Agent processing: TICKET-1781793161
+2026-06-18 20:02:41,532 - support_bot - INFO - Resolution Drafter processing: TICKET-1781793161
+2026-06-18 20:02:41,532 - INFO - Resolution Drafter processing: TICKET-1781793161
+2026-06-18 20:26:17,408 - support_bot - INFO - Analyzing ticket TICKET-1781794577
+2026-06-18 20:26:17,408 - INFO - Analyzing ticket TICKET-1781794577
+2026-06-18 20:26:17,461 - support_bot - INFO - Classified ticket: bug (medium)
+2026-06-18 20:26:17,461 - INFO - Classified ticket: bug (medium)
+2026-06-18 20:26:17,467 - support_bot - INFO - Multi-step retrieval for: I'm having login issue in adobe photoshop.
+2026-06-18 20:26:17,467 - INFO - Multi-step retrieval for: I'm having login issue in adobe photoshop.
+2026-06-18 20:26:17,480 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:26:17,480 - ERROR - Collection not initialized
+2026-06-18 20:26:17,480 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:26:17,480 - ERROR - Collection not initialized
+2026-06-18 20:26:17,539 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:26:17,539 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:26:17,548 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:26:17,548 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:26:17,587 - support_bot - INFO - Processing complex ticket: TICKET-1781794577
+2026-06-18 20:26:17,587 - INFO - Processing complex ticket: TICKET-1781794577
+2026-06-18 20:26:17,593 - support_bot - INFO - Technical Agent processing: TICKET-1781794577
+2026-06-18 20:26:17,593 - INFO - Technical Agent processing: TICKET-1781794577
+2026-06-18 20:26:17,605 - support_bot - INFO - Billing Agent processing: TICKET-1781794577
+2026-06-18 20:26:17,605 - INFO - Billing Agent processing: TICKET-1781794577
+2026-06-18 20:26:17,611 - support_bot - INFO - Resolution Drafter processing: TICKET-1781794577
+2026-06-18 20:26:17,611 - INFO - Resolution Drafter processing: TICKET-1781794577
+2026-06-18 20:27:22,751 - support_bot - INFO - Analyzing ticket TICKET-1781794642
+2026-06-18 20:27:22,751 - INFO - Analyzing ticket TICKET-1781794642
+2026-06-18 20:27:22,755 - support_bot - INFO - Classified ticket: bug (medium)
+2026-06-18 20:27:22,755 - INFO - Classified ticket: bug (medium)
+2026-06-18 20:27:22,755 - support_bot - INFO - Multi-step retrieval for: I'm having login issue in adobe photoshop.
+2026-06-18 20:27:22,755 - INFO - Multi-step retrieval for: I'm having login issue in adobe photoshop.
+2026-06-18 20:27:22,755 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:27:22,755 - ERROR - Collection not initialized
+2026-06-18 20:27:22,759 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:27:22,759 - ERROR - Collection not initialized
+2026-06-18 20:27:22,761 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:27:22,761 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:27:22,762 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:27:22,762 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:27:22,788 - support_bot - INFO - Processing complex ticket: TICKET-1781794642
+2026-06-18 20:27:22,788 - INFO - Processing complex ticket: TICKET-1781794642
+2026-06-18 20:27:22,790 - support_bot - INFO - Technical Agent processing: TICKET-1781794642
+2026-06-18 20:27:22,790 - INFO - Technical Agent processing: TICKET-1781794642
+2026-06-18 20:27:22,793 - support_bot - INFO - Billing Agent processing: TICKET-1781794642
+2026-06-18 20:27:22,793 - INFO - Billing Agent processing: TICKET-1781794642
+2026-06-18 20:27:22,796 - support_bot - INFO - Resolution Drafter processing: TICKET-1781794642
+2026-06-18 20:27:22,796 - INFO - Resolution Drafter processing: TICKET-1781794642
+2026-06-18 20:28:39,916 - support_bot - INFO - Analyzing ticket TICKET-1781794719
+2026-06-18 20:28:39,916 - INFO - Analyzing ticket TICKET-1781794719
+2026-06-18 20:28:39,923 - support_bot - INFO - Classified ticket: bug (medium)
+2026-06-18 20:28:39,923 - INFO - Classified ticket: bug (medium)
+2026-06-18 20:28:39,923 - support_bot - INFO - Multi-step retrieval for: I'm having login issue in adobe photoshop. Please assist.
+2026-06-18 20:28:39,923 - INFO - Multi-step retrieval for: I'm having login issue in adobe photoshop. Please assist.
+2026-06-18 20:28:39,929 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:28:39,929 - ERROR - Collection not initialized
+2026-06-18 20:28:39,931 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:28:39,931 - ERROR - Collection not initialized
+2026-06-18 20:28:39,931 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:28:39,931 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:28:39,938 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:28:39,938 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:28:39,990 - support_bot - INFO - Processing complex ticket: TICKET-1781794719
+2026-06-18 20:28:39,990 - INFO - Processing complex ticket: TICKET-1781794719
+2026-06-18 20:28:39,990 - support_bot - INFO - Technical Agent processing: TICKET-1781794719
+2026-06-18 20:28:39,990 - INFO - Technical Agent processing: TICKET-1781794719
+2026-06-18 20:28:39,990 - support_bot - INFO - Billing Agent processing: TICKET-1781794719
+2026-06-18 20:28:39,990 - INFO - Billing Agent processing: TICKET-1781794719
+2026-06-18 20:28:39,990 - support_bot - INFO - Resolution Drafter processing: TICKET-1781794719
+2026-06-18 20:28:39,990 - INFO - Resolution Drafter processing: TICKET-1781794719
+2026-06-18 20:29:28,610 - support_bot - INFO - Analyzing ticket TICKET-1781794768
+2026-06-18 20:29:28,610 - INFO - Analyzing ticket TICKET-1781794768
+2026-06-18 20:29:28,613 - support_bot - INFO - Classified ticket: bug (medium)
+2026-06-18 20:29:28,613 - INFO - Classified ticket: bug (medium)
+2026-06-18 20:29:28,614 - support_bot - INFO - Multi-step retrieval for: I'm having login issue in adobe photoshop. Please assist.
+2026-06-18 20:29:28,614 - INFO - Multi-step retrieval for: I'm having login issue in adobe photoshop. Please assist.
+2026-06-18 20:29:28,615 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:29:28,615 - ERROR - Collection not initialized
+2026-06-18 20:29:28,616 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:29:28,616 - ERROR - Collection not initialized
+2026-06-18 20:29:28,616 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:29:28,616 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:29:28,616 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:29:28,616 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:29:28,651 - support_bot - INFO - Processing complex ticket: TICKET-1781794768
+2026-06-18 20:29:28,651 - INFO - Processing complex ticket: TICKET-1781794768
+2026-06-18 20:29:28,653 - support_bot - INFO - Technical Agent processing: TICKET-1781794768
+2026-06-18 20:29:28,653 - INFO - Technical Agent processing: TICKET-1781794768
+2026-06-18 20:29:28,653 - support_bot - INFO - Billing Agent processing: TICKET-1781794768
+2026-06-18 20:29:28,653 - INFO - Billing Agent processing: TICKET-1781794768
+2026-06-18 20:29:28,657 - support_bot - INFO - Resolution Drafter processing: TICKET-1781794768
+2026-06-18 20:29:28,657 - INFO - Resolution Drafter processing: TICKET-1781794768
+2026-06-18 20:29:57,201 - support_bot - INFO - Analyzing ticket TICKET-1781794797
+2026-06-18 20:29:57,201 - INFO - Analyzing ticket TICKET-1781794797
+2026-06-18 20:29:57,207 - support_bot - INFO - Classified ticket: bug (medium)
+2026-06-18 20:29:57,207 - INFO - Classified ticket: bug (medium)
+2026-06-18 20:29:57,210 - support_bot - INFO - Multi-step retrieval for: having login issue. please assist
+2026-06-18 20:29:57,210 - INFO - Multi-step retrieval for: having login issue. please assist
+2026-06-18 20:29:57,210 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:29:57,210 - ERROR - Collection not initialized
+2026-06-18 20:29:57,210 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:29:57,210 - ERROR - Collection not initialized
+2026-06-18 20:29:57,215 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:29:57,215 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:29:57,215 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:29:57,215 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:29:57,267 - support_bot - INFO - Processing complex ticket: TICKET-1781794797
+2026-06-18 20:29:57,267 - INFO - Processing complex ticket: TICKET-1781794797
+2026-06-18 20:29:57,267 - support_bot - INFO - Technical Agent processing: TICKET-1781794797
+2026-06-18 20:29:57,267 - INFO - Technical Agent processing: TICKET-1781794797
+2026-06-18 20:29:57,267 - support_bot - INFO - Billing Agent processing: TICKET-1781794797
+2026-06-18 20:29:57,267 - INFO - Billing Agent processing: TICKET-1781794797
+2026-06-18 20:29:57,267 - support_bot - INFO - Resolution Drafter processing: TICKET-1781794797
+2026-06-18 20:29:57,267 - INFO - Resolution Drafter processing: TICKET-1781794797
+2026-06-18 20:33:20,654 - support_bot - INFO - Analyzing ticket TICKET-1781795000
+2026-06-18 20:33:20,654 - INFO - Analyzing ticket TICKET-1781795000
+2026-06-18 20:33:20,658 - support_bot - INFO - Classified ticket: account (medium)
+2026-06-18 20:33:20,658 - INFO - Classified ticket: account (medium)
+2026-06-18 20:33:20,661 - support_bot - INFO - Multi-step retrieval for: How can I create an account?
+2026-06-18 20:33:20,661 - INFO - Multi-step retrieval for: How can I create an account?
+2026-06-18 20:33:20,664 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:33:20,664 - ERROR - Collection not initialized
+2026-06-18 20:33:20,676 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:33:20,676 - ERROR - Collection not initialized
+2026-06-18 20:33:20,678 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:33:20,678 - ERROR - Collection not initialized
+2026-06-18 20:33:20,681 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:33:20,681 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:33:20,681 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:33:20,681 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:33:20,742 - support_bot - INFO - Processing complex ticket: TICKET-1781795000
+2026-06-18 20:33:20,742 - INFO - Processing complex ticket: TICKET-1781795000
+2026-06-18 20:33:20,749 - support_bot - INFO - Technical Agent processing: TICKET-1781795000
+2026-06-18 20:33:20,749 - INFO - Technical Agent processing: TICKET-1781795000
+2026-06-18 20:33:20,749 - support_bot - INFO - Billing Agent processing: TICKET-1781795000
+2026-06-18 20:33:20,749 - INFO - Billing Agent processing: TICKET-1781795000
+2026-06-18 20:33:20,749 - support_bot - INFO - Resolution Drafter processing: TICKET-1781795000
+2026-06-18 20:33:20,749 - INFO - Resolution Drafter processing: TICKET-1781795000
+2026-06-18 20:49:37,560 - support_bot - INFO - Analyzing ticket TICKET-1781795977
+2026-06-18 20:49:37,560 - INFO - Analyzing ticket TICKET-1781795977
+2026-06-18 20:49:37,567 - support_bot - INFO - Classified ticket: account (medium)
+2026-06-18 20:49:37,567 - INFO - Classified ticket: account (medium)
+2026-06-18 20:49:37,568 - support_bot - INFO - Multi-step retrieval for: How can I create an account in adobe?
+2026-06-18 20:49:37,568 - INFO - Multi-step retrieval for: How can I create an account in adobe?
+2026-06-18 20:49:37,568 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:49:37,568 - ERROR - Collection not initialized
+2026-06-18 20:49:37,568 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:49:37,568 - ERROR - Collection not initialized
+2026-06-18 20:49:37,576 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:49:37,576 - ERROR - Collection not initialized
+2026-06-18 20:49:37,576 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:49:37,576 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:49:37,581 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:49:37,581 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:49:37,647 - support_bot - INFO - Processing complex ticket: TICKET-1781795977
+2026-06-18 20:49:37,647 - INFO - Processing complex ticket: TICKET-1781795977
+2026-06-18 20:49:37,652 - support_bot - INFO - Technical Agent processing: TICKET-1781795977
+2026-06-18 20:49:37,652 - INFO - Technical Agent processing: TICKET-1781795977
+2026-06-18 20:49:37,662 - support_bot - INFO - Billing Agent processing: TICKET-1781795977
+2026-06-18 20:49:37,662 - INFO - Billing Agent processing: TICKET-1781795977
+2026-06-18 20:49:37,666 - support_bot - INFO - Resolution Drafter processing: TICKET-1781795977
+2026-06-18 20:49:37,666 - INFO - Resolution Drafter processing: TICKET-1781795977
+2026-06-18 20:50:08,554 - support_bot - INFO - Analyzing ticket TICKET-1781796008
+2026-06-18 20:50:08,554 - INFO - Analyzing ticket TICKET-1781796008
+2026-06-18 20:50:08,556 - support_bot - INFO - Classified ticket: account (medium)
+2026-06-18 20:50:08,556 - INFO - Classified ticket: account (medium)
+2026-06-18 20:50:08,558 - support_bot - INFO - Multi-step retrieval for: How can I create an account in adobe?
+2026-06-18 20:50:08,558 - INFO - Multi-step retrieval for: How can I create an account in adobe?
+2026-06-18 20:50:08,560 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:50:08,560 - ERROR - Collection not initialized
+2026-06-18 20:50:08,561 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:50:08,561 - ERROR - Collection not initialized
+2026-06-18 20:50:08,562 - support_bot - ERROR - Collection not initialized
+2026-06-18 20:50:08,562 - ERROR - Collection not initialized
+2026-06-18 20:50:08,565 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:50:08,565 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 20:50:08,565 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:50:08,565 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 20:50:08,595 - support_bot - INFO - Processing complex ticket: TICKET-1781796008
+2026-06-18 20:50:08,595 - INFO - Processing complex ticket: TICKET-1781796008
+2026-06-18 20:50:08,597 - support_bot - INFO - Technical Agent processing: TICKET-1781796008
+2026-06-18 20:50:08,597 - INFO - Technical Agent processing: TICKET-1781796008
+2026-06-18 20:50:08,603 - support_bot - INFO - Billing Agent processing: TICKET-1781796008
+2026-06-18 20:50:08,603 - INFO - Billing Agent processing: TICKET-1781796008
+2026-06-18 20:50:08,604 - support_bot - INFO - Resolution Drafter processing: TICKET-1781796008
+2026-06-18 20:50:08,604 - INFO - Resolution Drafter processing: TICKET-1781796008
+2026-06-18 20:52:26,842 - support_bot - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-18 20:52:26,842 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-18 20:52:26,857 - INFO - Use pytorch device_name: cpu
+2026-06-18 20:52:26,859 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-18 20:52:32,267 - support_bot - INFO - Model loaded. Dimension: 384
+2026-06-18 20:52:32,267 - INFO - Model loaded. Dimension: 384
+2026-06-18 20:52:32,267 - support_bot - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-18 20:52:32,267 - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-18 20:52:32,317 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-18 20:52:32,317 - support_bot - INFO - OrchestratorAgent initialized
+2026-06-18 20:52:32,317 - INFO - OrchestratorAgent initialized
+2026-06-18 21:56:42,314 - support_bot - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-18 21:56:42,314 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-18 21:56:42,505 - INFO - Use pytorch device_name: cpu
+2026-06-18 21:56:42,507 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-18 21:56:48,995 - support_bot - INFO - Model loaded. Dimension: 384
+2026-06-18 21:56:48,995 - INFO - Model loaded. Dimension: 384
+2026-06-18 21:56:49,000 - support_bot - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-18 21:56:49,000 - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-18 21:56:49,130 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-18 21:56:49,130 - support_bot - INFO - OrchestratorAgent initialized
+2026-06-18 21:56:49,130 - INFO - OrchestratorAgent initialized
+2026-06-18 21:56:49,142 - support_bot - INFO - technical agent initialized
+2026-06-18 21:56:49,142 - INFO - technical agent initialized
+2026-06-18 21:56:49,147 - support_bot - INFO - billing agent initialized
+2026-06-18 21:56:49,147 - INFO - billing agent initialized
+2026-06-18 21:56:49,150 - support_bot - INFO - drafter agent initialized
+2026-06-18 21:56:49,150 - INFO - drafter agent initialized
+2026-06-18 21:56:49,150 - support_bot - INFO - SpecialistAgentManager initialized with all agents
+2026-06-18 21:56:49,150 - INFO - SpecialistAgentManager initialized with all agents
+2026-06-18 21:57:37,751 - support_bot - INFO - Analyzing ticket TICKET-1781800057
+2026-06-18 21:57:37,751 - INFO - Analyzing ticket TICKET-1781800057
+2026-06-18 21:57:37,757 - support_bot - INFO - Classified ticket: bug (medium)
+2026-06-18 21:57:37,757 - INFO - Classified ticket: bug (medium)
+2026-06-18 21:57:37,761 - support_bot - INFO - Multi-step retrieval for: login issue
+2026-06-18 21:57:37,761 - INFO - Multi-step retrieval for: login issue
+2026-06-18 21:57:37,762 - support_bot - ERROR - Collection not initialized
+2026-06-18 21:57:37,762 - ERROR - Collection not initialized
+2026-06-18 21:57:37,790 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 21:57:37,790 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-18 21:57:37,792 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-18 21:57:37,792 - INFO - Ticket analysis complete: specialist_team
+2026-06-18 21:57:37,834 - support_bot - INFO - Processing complex ticket: TICKET-1781800057
+2026-06-18 21:57:37,834 - INFO - Processing complex ticket: TICKET-1781800057
+2026-06-18 21:57:37,841 - support_bot - INFO - Technical Agent processing: TICKET-1781800057
+2026-06-18 21:57:37,841 - INFO - Technical Agent processing: TICKET-1781800057
+2026-06-18 21:57:37,841 - support_bot - INFO - Billing Agent processing: TICKET-1781800057
+2026-06-18 21:57:37,841 - INFO - Billing Agent processing: TICKET-1781800057
+2026-06-18 21:57:37,848 - support_bot - INFO - Resolution Drafter processing: TICKET-1781800057
+2026-06-18 21:57:37,848 - INFO - Resolution Drafter processing: TICKET-1781800057
+2026-06-19 13:32:40,384 - support_bot - INFO - Support Bot v0.1.0 initialized
+2026-06-19 13:32:40,384 - INFO - Support Bot v0.1.0 initialized
+2026-06-19 13:34:36,039 - support_bot - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-19 13:34:36,039 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-06-19 13:34:36,045 - INFO - Use pytorch device_name: cpu
+2026-06-19 13:34:36,047 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-06-19 13:34:48,037 - support_bot - INFO - Model loaded. Dimension: 384
+2026-06-19 13:34:48,037 - INFO - Model loaded. Dimension: 384
+2026-06-19 13:34:48,037 - support_bot - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-19 13:34:48,037 - INFO - Initializing Chroma at D:\Projects\AI Project\Intelligent_FAQ_and_Ticket_Resolution_Bot\data\knowledge_base\chroma_db
+2026-06-19 13:34:48,306 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-19 13:34:49,474 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-19 13:34:49,475 - support_bot - INFO - OrchestratorAgent initialized
+2026-06-19 13:34:49,475 - INFO - OrchestratorAgent initialized
+2026-06-19 13:34:49,480 - support_bot - INFO - technical agent initialized
+2026-06-19 13:34:49,480 - INFO - technical agent initialized
+2026-06-19 13:34:49,480 - support_bot - INFO - billing agent initialized
+2026-06-19 13:34:49,480 - INFO - billing agent initialized
+2026-06-19 13:34:49,480 - support_bot - INFO - drafter agent initialized
+2026-06-19 13:34:49,480 - INFO - drafter agent initialized
+2026-06-19 13:34:49,480 - support_bot - INFO - SpecialistAgentManager initialized with all agents
+2026-06-19 13:34:49,480 - INFO - SpecialistAgentManager initialized with all agents
+2026-06-19 13:35:32,183 - support_bot - INFO - Analyzing ticket TICKET-1781856332
+2026-06-19 13:35:32,183 - INFO - Analyzing ticket TICKET-1781856332
+2026-06-19 13:35:32,186 - support_bot - INFO - Classified ticket: unknown (low)
+2026-06-19 13:35:32,186 - INFO - Classified ticket: unknown (low)
+2026-06-19 13:35:32,187 - support_bot - INFO - Multi-step retrieval for: How do I enable two-factor authentication?
+
+2026-06-19 13:35:32,187 - INFO - Multi-step retrieval for: How do I enable two-factor authentication?
+
+2026-06-19 13:35:32,187 - support_bot - ERROR - Collection not initialized
+2026-06-19 13:35:32,187 - ERROR - Collection not initialized
+2026-06-19 13:35:32,187 - support_bot - ERROR - Collection not initialized
+2026-06-19 13:35:32,187 - ERROR - Collection not initialized
+2026-06-19 13:35:32,187 - support_bot - ERROR - Collection not initialized
+2026-06-19 13:35:32,187 - ERROR - Collection not initialized
+2026-06-19 13:35:32,190 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-19 13:35:32,190 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-19 13:35:32,192 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-19 13:35:32,192 - INFO - Ticket analysis complete: specialist_team
+2026-06-19 13:35:32,229 - support_bot - INFO - Processing complex ticket: TICKET-1781856332
+2026-06-19 13:35:32,229 - INFO - Processing complex ticket: TICKET-1781856332
+2026-06-19 13:35:32,233 - support_bot - INFO - Technical Agent processing: TICKET-1781856332
+2026-06-19 13:35:32,233 - INFO - Technical Agent processing: TICKET-1781856332
+2026-06-19 13:35:32,237 - support_bot - INFO - Billing Agent processing: TICKET-1781856332
+2026-06-19 13:35:32,237 - INFO - Billing Agent processing: TICKET-1781856332
+2026-06-19 13:35:32,237 - support_bot - INFO - Resolution Drafter processing: TICKET-1781856332
+2026-06-19 13:35:32,237 - INFO - Resolution Drafter processing: TICKET-1781856332
+2026-06-19 13:36:11,831 - support_bot - INFO - Analyzing ticket TICKET-1781856371
+2026-06-19 13:36:11,831 - INFO - Analyzing ticket TICKET-1781856371
+2026-06-19 13:36:11,831 - support_bot - INFO - Classified ticket: unknown (low)
+2026-06-19 13:36:11,831 - INFO - Classified ticket: unknown (low)
+2026-06-19 13:36:11,831 - support_bot - INFO - Multi-step retrieval for: How do I enable two-factor authentication?
+
+2026-06-19 13:36:11,831 - INFO - Multi-step retrieval for: How do I enable two-factor authentication?
+
+2026-06-19 13:36:11,831 - support_bot - ERROR - Collection not initialized
+2026-06-19 13:36:11,831 - ERROR - Collection not initialized
+2026-06-19 13:36:11,831 - support_bot - ERROR - Collection not initialized
+2026-06-19 13:36:11,831 - ERROR - Collection not initialized
+2026-06-19 13:36:11,839 - support_bot - ERROR - Collection not initialized
+2026-06-19 13:36:11,839 - ERROR - Collection not initialized
+2026-06-19 13:36:11,839 - support_bot - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-19 13:36:11,839 - INFO - Routing decision: specialist_team (confidence: 0.0%)
+2026-06-19 13:36:11,842 - support_bot - INFO - Ticket analysis complete: specialist_team
+2026-06-19 13:36:11,842 - INFO - Ticket analysis complete: specialist_team
+2026-06-19 13:36:11,859 - support_bot - INFO - Processing complex ticket: TICKET-1781856371
+2026-06-19 13:36:11,859 - INFO - Processing complex ticket: TICKET-1781856371
+2026-06-19 13:36:11,859 - support_bot - INFO - Technical Agent processing: TICKET-1781856371
+2026-06-19 13:36:11,859 - INFO - Technical Agent processing: TICKET-1781856371
+2026-06-19 13:36:11,859 - support_bot - INFO - Billing Agent processing: TICKET-1781856371
+2026-06-19 13:36:11,859 - INFO - Billing Agent processing: TICKET-1781856371
+2026-06-19 13:36:11,867 - support_bot - INFO - Resolution Drafter processing: TICKET-1781856371
+2026-06-19 13:36:11,867 - INFO - Resolution Drafter processing: TICKET-1781856371
